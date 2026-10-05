@@ -1,0 +1,46 @@
+THIRANEX INTERNSHIP PROJECT
+PREDICTIVE MODELING USING MACHINE LEARNING
+
+Project Title:
+Student Performance Prediction using Random Forest
+
+1. INTRODUCTION
+Predictive modeling is a machine learning technique used to predict future or unknown outcomes from existing data. This project develops a supervised machine learning model that predicts whether a student is likely to Pass or Fail.
+
+2. PROBLEM STATEMENT
+Educational performance depends on several factors such as study time, attendance, previous marks, and assignment completion. The objective is to use these factors to predict the student's final result.
+
+3. OBJECTIVES
+- Build a classification model using machine learning.
+- Prepare and analyze student data.
+- Train and test a Random Forest classifier.
+- Measure model performance using accuracy and a confusion matrix.
+- Visualize the ROC curve and feature importance.
+- Demonstrate prediction for a new student.
+
+4. DATASET
+The project uses a synthetic dataset containing 200 student records. The input features are Study Hours, Attendance, Previous Marks, and Assignments Completed. The target variable is Result (Pass/Fail).
+
+5. METHODOLOGY
+The dataset is loaded using Pandas. The input variables are separated from the target variable. The data is divided into 80% training data and 20% testing data. A Random Forest Classifier with 100 trees is trained on the training data. The trained model predicts the results of the test data.
+
+6. ALGORITHM
+Random Forest is an ensemble learning algorithm that combines multiple decision trees. It can handle several input features and is useful for classification problems. The final prediction is based on the combined decisions of the trees.
+
+7. MODEL EVALUATION
+The model is evaluated using Accuracy, Classification Report, Confusion Matrix, ROC Curve and AUC, and Feature Importance.
+
+8. RESULTS
+After running the Python program, the terminal displays the model accuracy and classification report. The program also generates three graphs: confusion matrix, ROC curve, and feature importance. Exact accuracy can vary because the dataset is synthetic.
+
+9. SAMPLE PREDICTION
+For a student with Study Hours = 7, Attendance = 88%, Previous Marks = 76, and Assignments Completed = 8, the trained model generates a Pass/Fail prediction with a confidence value.
+
+10. CONCLUSION
+This project demonstrates the complete machine learning workflow from data preparation to model evaluation. Random Forest provides a practical approach for predicting student performance.
+
+11. FUTURE ENHANCEMENTS
+- Use a real student dataset.
+- Add more features such as sleep, study method, and internal assessment scores.
+- Compare Random Forest with Decision Tree and Logistic Regression.
+- Deploy the model as a web application.
